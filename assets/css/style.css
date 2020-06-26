@@ -1,0 +1,432 @@
+@import url("https://fonts.googleapis.com/css2?family=Suez+One&display=swap");
+.doc_nav {
+  box-shadow: unset;
+}
+
+body {
+  font-size: 0.8325rem !important;
+  position: relative;
+}
+
+* {
+  transition: all .3s;
+}
+
+.doc_marginB {
+  margin-bottom: 100px;
+}
+
+#sidebar {
+  width: 280px;
+  text-align: center;
+  position: fixed;
+  overflow-y: auto;
+  top: 0;
+  bottom: 0;
+  z-index: 2;
+}
+#sidebar .doc_sidePro_name {
+  font-size: 1.5rem;
+  font-family: 'Suez One', serif;
+}
+
+.doc_proImg_round {
+  background-position: center;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.doc_sidebar_profileSection .doc_proIntro {
+  font-size: .800rem;
+  color: #4b4b4b;
+}
+
+.doc_socila {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.doc_socila li a {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  box-shadow: 0 0rem 5px rgba(0, 0, 0, 0.3);
+  vertical-align: middle;
+}
+.doc_socila li a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.svg-inline--fa {
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  width: 1.25em;
+  vertical-align: -.70em;
+}
+
+.doc_navItems .nav-link {
+  color: #585858;
+}
+.doc_navItems .nav-link:hover {
+  color: #17a2b8;
+}
+.doc_navItems .nav-link:focus {
+  color: #17a2b8;
+}
+
+.doc_aboutMeInfo {
+  position: relative;
+}
+
+.doc_btnBarWrap {
+  display: none;
+  position: absolute;
+  top: -40px;
+  left: 0;
+}
+
+.doc_btnBar {
+  width: 30px;
+  height: 30px;
+}
+
+.doc_sidebarShadowActive {
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: .5;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.doc_sidebarShadowDactive {
+  display: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10rem;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #e4e4e4;
+  border-radius: 10rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #d5d5d5;
+}
+
+#doc_aboutMe {
+  margin-left: 280px;
+  padding: 3rem;
+}
+
+.doc_aboutMeInfo {
+  width: 60%;
+}
+
+.aboutMeInfo_name {
+  font-family: 'Suez One', serif;
+}
+
+.aboutMeInfo_name {
+  font-size: 2.6rem;
+  text-transform: capitalize;
+}
+
+.aboutMeInfo_tagline {
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+
+.viewPortfolio-svg {
+  vertical-align: middle;
+}
+
+.doc_aboutMeImg {
+  width: 35%;
+  height: 280px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+}
+
+.doc_sectionTitle {
+  font-size: 2rem;
+  position: relative;
+  padding-left: 1.5rem;
+}
+.doc_sectionTitle:before {
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 100%;
+  background-color: #9C27B0;
+  left: 0;
+  top: 0;
+}
+
+.doc_itemInner {
+  padding: 15px;
+}
+
+.doc_jsIcon {
+  width: 30px;
+  height: 3rem;
+  color: #F1DE4F;
+}
+
+.doc_angularIcon {
+  width: 30px;
+  height: 3rem;
+  color: #CA3327;
+}
+
+.doc_reactIcon {
+  width: 30px;
+  height: 3rem;
+  color: #62D4FA;
+}
+
+.doc_nodeIcon {
+  width: 30px;
+  height: 3rem;
+  color: #54B689;
+}
+
+.doc_phpIcon {
+  width: 30px;
+  height: 3rem;
+  color: #777BAF;
+}
+
+.doc_htmlIcon {
+  width: 30px;
+  height: 3rem;
+  color: #DE6E3C;
+}
+
+.doc_cssIcon {
+  width: 30px;
+  height: 3rem;
+  color: #53A7DC;
+}
+
+.doc_laravelIcon {
+  width: 30px;
+  height: 3rem;
+}
+
+.doc_wordpressIcon {
+  width: 30px;
+  height: 3rem;
+}
+
+.doc_itemIcon .doc_shopifyIcon {
+  width: 30px;
+  height: 2.3rem;
+}
+
+.doc_jqueryIcon {
+  width: 30px;
+  height: 3rem;
+}
+
+.doc_bootstrapIcon {
+  width: 30px;
+  height: 3rem;
+}
+
+.doc_foundationIcon {
+  width: 30px;
+  height: 3rem;
+}
+
+.doc_sassIcon {
+  width: 30px;
+  height: 3rem;
+  color: #BF6B97;
+}
+
+.doc_lessIcon {
+  width: 30px;
+  height: 3rem;
+  color: #324B7C;
+}
+
+.doc_uxuiIcon {
+  width: 30px;
+  height: 2rem;
+}
+
+.doc_clientPro .doc_clientImg {
+  width: 60px;
+  height: 60px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+}
+.doc_clientPro .doc_clientBio .clientName {
+  color: #646363;
+}
+.doc_clientPro .doc_clientBio .clientInfo {
+  color: #8f8f8f;
+}
+
+.doc_testimonialSlider_item {
+  min-height: 225px;
+}
+
+.testimonialItmes {
+  position: relative;
+}
+.testimonialItmes:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 40px 40px 0 0;
+  border-color: #9C27B0 transparent transparent transparent;
+}
+.testimonialItmes .testimonialItmes_quote {
+  position: absolute;
+  left: 0.35rem;
+  top: 0.3rem;
+  color: #fff;
+  font-size: 0.75rem;
+}
+
+.tns-nav {
+  text-align: center;
+}
+.tns-nav [aria-controls="tns1"] {
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  margin: 0 5px;
+  border-radius: 50%;
+  background: rgba(41, 41, 41, 0.2);
+  border: 0;
+}
+.tns-nav .tns-nav-active {
+  background-color: #9C27B0;
+}
+
+.doc_docfeateredProItemImg {
+  min-height: 200px;
+}
+.doc_docfeateredProItemImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mask {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.mask a {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: capitalize;
+  background: #666;
+  display: none;
+  width: 160px;
+}
+.mask a:hover {
+  background: #222;
+}
+.mask:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+.mask:hover a {
+  display: block;
+}
+
+.viewIcon {
+  vertical-align: middle;
+}
+
+@media (max-width: 1140px) {
+  #doc_aboutMe {
+    padding: 1rem;
+  }
+}
+@media (max-width: 800px) {
+  #sidebar {
+    transform: translateX(-280px);
+  }
+
+  #doc_aboutMe {
+    margin-left: 0;
+    padding: 3rem;
+  }
+
+  .doc_btnBarWrap {
+    display: block;
+  }
+
+  .sidebarActive {
+    transform: translateX(0) !important;
+  }
+}
+@media (max-width: 767px) {
+  .doc_aboutMe_section {
+    flex-direction: column;
+  }
+
+  #doc_aboutMe {
+    padding: 3rem 0;
+  }
+
+  .doc_aboutMeInfo {
+    width: 100%;
+  }
+
+  .doc_aboutMeImg {
+    width: 100%;
+  }
+
+  .aboutMeInfo_name {
+    font-size: 2.5rem;
+  }
+
+  .doc_marginB {
+    margin-bottom: 70px;
+  }
+}
+@media (max-width: 359px) {
+  .aboutMeInfo_name {
+    font-size: 2rem;
+  }
+
+  .aboutMeInfo_tagline {
+    font-size: 1.3rem;
+  }
+
+  .btn {
+    font-size: .7rem;
+  }
+}

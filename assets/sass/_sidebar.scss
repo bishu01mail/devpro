@@ -1,0 +1,110 @@
+#sidebar{
+	width: 280px;
+	text-align: center;
+	position: fixed;
+	overflow-y: auto;
+	top: 0;
+	bottom: 0;
+	z-index: 2;
+	.doc_sidePro_name{
+		font-size: 1.5rem;
+		font-family: 'Suez One', serif;
+	}
+}
+.doc_proImg_round{
+	background-position: center;
+	background-size: cover;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+.doc_sidebar_profileSection{
+	.doc_proIntro{
+		font-size: .800rem;
+		color: $p-color;
+	}
+}
+.doc_socila{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	li{
+		a{
+			display: inline-block;
+			width: 32px;
+			height: 32px;
+			border-radius: 50%;
+			box-shadow: 0 0rem 5px rgba(0, 0, 0, 0.3);
+    		vertical-align: middle;
+    		&:hover{
+    			background-color: rgba(0,0,0,.1);
+    		}
+		}
+	}
+}
+.svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    width: 1.25em;
+    vertical-align: -.70em;
+}
+.doc_navItems{
+	.nav-link{
+		color: #585858;
+		&:hover{
+			color: #17a2b8;
+		}
+		&:focus{
+			color: #17a2b8;
+		}
+	}
+}
+// mobile sidebar manu btn
+.doc_aboutMeInfo{
+	position: relative;
+}
+.doc_btnBarWrap{
+	display: none;
+	position: absolute;
+	top: -40px;
+	left: 0;
+}
+.doc_btnBar{
+	width: 30px;
+	height: 30px;
+}
+.doc_sidebarShadowActive{
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: .5;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	z-index: 1;
+}
+.doc_sidebarShadowDactive{
+	display: none;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius: 10rem;
+}
+ 
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #e4e4e4;
+  border-radius:10rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #d5d5d5;
+}

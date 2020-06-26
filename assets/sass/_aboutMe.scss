@@ -1,0 +1,219 @@
+#doc_aboutMe{
+	margin-left: 280px;
+	padding: 3rem;
+}
+// doc_aboutMe_section
+.doc_aboutMeInfo{
+	width: 60%;
+}
+.aboutMeInfo_name{
+	font-family: 'Suez One', serif;
+}
+.aboutMeInfo_name{
+	font-size: 2.6rem;
+	text-transform: capitalize;
+}
+.aboutMeInfo_tagline{
+	font-size: 1.5rem;
+	font-weight: 300;
+	text-transform: capitalize;
+}
+.viewPortfolio-svg{
+	vertical-align: middle;
+}
+.doc_aboutMeImg{
+	width: 35%;
+    height: 280px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+// doc_overview_section
+.doc_sectionTitle{
+	font-size: 2rem;
+	position: relative;
+	padding-left: 1.5rem;
+	&:before{
+		content: '';
+		position: absolute;
+		width: 5px;
+		height: 100%;
+		background-color: #9C27B0;
+		left: 0;
+		top: 0;
+	}
+}
+.doc_itemInner{
+	padding: 15px;
+}
+.doc_jsIcon{
+	width: 30px;
+	height: 3rem;
+	color: #F1DE4F;
+}
+.doc_angularIcon{
+	width: 30px;
+	height: 3rem;
+	color: #CA3327;
+}
+.doc_reactIcon{
+	width: 30px;
+	height: 3rem;
+	color: #62D4FA;
+}
+.doc_nodeIcon{
+	width: 30px;
+	height: 3rem;
+	color: #54B689;
+}
+.doc_phpIcon{
+	width: 30px;
+	height: 3rem;
+	color: #777BAF;
+}
+.doc_htmlIcon{
+	width: 30px;
+	height: 3rem;
+	color: #DE6E3C;
+}
+.doc_cssIcon{
+	width: 30px;
+	height: 3rem;
+	color: #53A7DC;
+}
+.doc_laravelIcon{
+	width: 30px;
+	height: 3rem;
+}
+.doc_wordpressIcon{
+	width: 30px;
+	height: 3rem;
+}
+.doc_itemIcon{
+.doc_shopifyIcon{	
+		width: 30px;
+		height: 2.3rem;	
+	}
+}
+.doc_jqueryIcon{
+	width: 30px;
+	height: 3rem;
+}
+.doc_bootstrapIcon{
+	width: 30px;
+	height: 3rem;
+}
+.doc_foundationIcon{
+	width: 30px;
+	height: 3rem;
+}
+.doc_sassIcon{
+	width: 30px;
+	height: 3rem;
+	color: #BF6B97;
+}
+.doc_lessIcon{
+	width: 30px;
+	height: 3rem;
+	color: #324B7C;
+}
+.doc_uxuiIcon{
+	width: 30px;
+	height: 2rem;
+}
+
+//Testimonials
+.doc_clientPro{
+	.doc_clientImg{
+	width: 60px;
+	height: 60px;
+	background-size: cover;
+	background-position: center;
+	border-radius: 50%;
+	}
+	.doc_clientBio{
+		.clientName{
+			color: #646363;
+		}
+		.clientInfo{
+			color: #8f8f8f;
+		}
+	}
+}
+.doc_testimonialSlider_item {
+	min-height: 225px;
+}
+.testimonialItmes{
+	position: relative;
+	&:before{
+	content: "";
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 40px 40px 0 0;
+    border-color: #9C27B0 transparent transparent transparent;
+	}
+	.testimonialItmes_quote{
+		position: absolute;
+	    left: 0.35rem;
+	    top: 0.3rem;
+	    color: #fff;
+	    font-size: 0.75rem;
+	}
+}
+.tns-nav {
+	text-align: center;
+	[aria-controls="tns1"]{
+		width: 10px;
+	    height: 10px;
+	    padding: 0;
+	    margin: 0 5px;
+	    border-radius: 50%;
+	    background: rgba(41,41,41,0.2);
+	    border: 0;
+	}
+	.tns-nav-active{
+		background-color: #9C27B0;
+	}
+}
+
+// featured Projects
+.doc_docfeateredProItemImg{
+	min-height: 200px;
+	img{
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+}
+.mask{
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	a{
+	 top: 50%;
+	 left: 50%;
+	 transform: translate(-50%, -50%);
+	 text-transform: capitalize;
+	 background: #666;
+	 display: none;
+	 width: 160px;
+	 &:hover{
+		background: #222;
+	 }
+	}
+	&:hover{
+		background: rgba(0,0,0,.3);
+		a{
+			display: block;
+		}
+	}
+}
+.viewIcon{
+	vertical-align: middle;
+}

@@ -1,0 +1,54 @@
+@media (max-width: 1140px){
+	#doc_aboutMe{
+		padding: 1rem;
+	}
+}
+@media (max-width: 800px){
+//======= about me ==========
+	#sidebar{
+		transform: translateX(-280px);
+
+	}
+	#doc_aboutMe{
+		margin-left: 0;
+		padding: 3rem;
+	}
+	.doc_btnBarWrap{
+		display: block;
+	}
+	.sidebarActive{
+		transform: translateX(0) !important;
+	}
+}
+@media (max-width: 767px){
+	.doc_aboutMe_section{
+		flex-direction: column;
+	}
+	#doc_aboutMe{
+		padding: 3rem 0;
+	}
+	.doc_aboutMeInfo{
+		width: 100%;
+	}
+	.doc_aboutMeImg{
+		width: 100%;
+	}
+	.aboutMeInfo_name{
+		font-size: 2.5rem;
+	}
+	.doc_marginB{
+		margin-bottom: 70px
+	}
+}
+@media (max-width: 359px){
+	.aboutMeInfo_name{
+		font-size: 2rem;
+	}
+	.aboutMeInfo_tagline{
+		font-size: 1.3rem;
+	}
+	.btn{
+		font-size: .7rem;
+	}
+
+}
