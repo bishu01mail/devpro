@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Suez+One&display=swap");
+@import url("headerFont.css");
 .doc_nav {
   box-shadow: unset;
 }
@@ -64,6 +64,10 @@ body {
   font-size: inherit;
   height: 1em;
   width: 1.25em;
+  vertical-align: middle;
+}
+
+.sidebarSocila {
   vertical-align: -.70em;
 }
 
@@ -77,15 +81,11 @@ body {
   color: #17a2b8;
 }
 
-.doc_aboutMeInfo {
-  position: relative;
-}
-
 .doc_btnBarWrap {
   display: none;
   position: absolute;
-  top: -40px;
-  left: 0;
+  top: -30px;
+  left: 20px;
 }
 
 .doc_btnBar {
@@ -130,7 +130,7 @@ body {
   background: #d5d5d5;
 }
 
-#doc_aboutMe {
+.doc_pages {
   margin-left: 280px;
   padding: 3rem;
 }
@@ -369,8 +369,78 @@ body {
   vertical-align: middle;
 }
 
+.doc_pages {
+  margin-left: 280px;
+  padding: 3rem;
+}
+
+.doc_pagesTitle {
+  font-size: 2rem;
+}
+
+.airplaneIcon {
+  vertical-align: middle;
+}
+
+.doc_protfolioWork button {
+  border: none;
+  background: none;
+  font-size: 1rem;
+  color: #8f8f8f;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.active {
+  border: none !important;
+  border-top: 2px solid #9C27B0 !important;
+  color: #9C27B0 !important;
+}
+
+button:focus {
+  outline: none;
+}
+
+.pdfIcon {
+  vertical-align: middle;
+}
+
+.resumeName {
+  font-size: 2.6rem;
+}
+
+.resumeContact {
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#doc_Portfolio article {
+  min-height: 500px;
+}
+
+.resProImg {
+  width: 120px;
+  height: 120px;
+}
+.resProImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.resumeAside {
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.resumeBody .doc_sectionTitle {
+  font-size: 1.3rem;
+}
+
+.resWorkItem_meta {
+  opacity: 0.7;
+}
+
 @media (max-width: 1140px) {
-  #doc_aboutMe {
+  .doc_pages {
     padding: 1rem;
   }
 }
@@ -379,7 +449,7 @@ body {
     transform: translateX(-280px);
   }
 
-  #doc_aboutMe {
+  .doc_pages {
     margin-left: 0;
     padding: 3rem;
   }
@@ -397,7 +467,7 @@ body {
     flex-direction: column;
   }
 
-  #doc_aboutMe {
+  .doc_pages {
     padding: 3rem 0;
   }
 
@@ -430,3 +500,5 @@ body {
     font-size: .7rem;
   }
 }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,35 @@
+.pdfIcon{
+	vertical-align: middle;
+}
+.resumeName{
+	font-size: 2.6rem;
+}
+
+.resumeContact{
+	border-left: 1px solid rgba(0,0,0,0.1);
+}
+#doc_Portfolio{
+	article{
+		min-height: 500px;
+	}
+}
+.resProImg{
+	width: 120px;
+	height: 120px;
+	img{
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+}
+.resumeAside{
+	border-left: 1px solid rgba(0,0,0,0.1);
+}
+.resumeBody{
+	.doc_sectionTitle{
+		font-size: 1.3rem;
+	}
+}
+.resWorkItem_meta{
+	opacity: 0.7;
+}

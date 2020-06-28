@@ -1,0 +1,28 @@
+.doc_pages{
+	margin-left: 280px;
+	padding: 3rem;
+}
+.doc_pagesTitle{
+	font-size: 2rem;
+}
+.airplaneIcon{
+	vertical-align: middle;
+}
+.doc_protfolioWork{
+	button{
+		border: none;
+		background: none;
+		font-size: 1rem;
+		color: #8f8f8f;
+		font-weight: bold;
+		padding: 5px;
+	}
+}
+.active{
+	border: none !important;
+	border-top: 2px solid #9C27B0 !important;
+	color: #9C27B0 !important;
+}
+button:focus{
+	outline: none;
+}

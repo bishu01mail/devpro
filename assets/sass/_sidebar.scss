@@ -46,7 +46,10 @@
     font-size: inherit;
     height: 1em;
     width: 1.25em;
-    vertical-align: -.70em;
+    vertical-align: middle;
+}
+.sidebarSocila{
+	vertical-align: -.70em;
 }
 .doc_navItems{
 	.nav-link{
@@ -60,14 +63,11 @@
 	}
 }
 // mobile sidebar manu btn
-.doc_aboutMeInfo{
-	position: relative;
-}
 .doc_btnBarWrap{
 	display: none;
 	position: absolute;
-	top: -40px;
-	left: 0;
+	top: -30px;
+	left: 20px;
 }
 .doc_btnBar{
 	width: 30px;

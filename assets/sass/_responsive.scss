@@ -1,5 +1,5 @@
 @media (max-width: 1140px){
-	#doc_aboutMe{
+	.doc_pages{
 		padding: 1rem;
 	}
 }
@@ -9,7 +9,7 @@
 		transform: translateX(-280px);
 
 	}
-	#doc_aboutMe{
+	.doc_pages{
 		margin-left: 0;
 		padding: 3rem;
 	}
@@ -24,7 +24,7 @@
 	.doc_aboutMe_section{
 		flex-direction: column;
 	}
-	#doc_aboutMe{
+	.doc_pages{
 		padding: 3rem 0;
 	}
 	.doc_aboutMeInfo{
