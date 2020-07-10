@@ -16,6 +16,10 @@ body {
   margin-bottom: 100px;
 }
 
+a {
+  text-decoration: none;
+}
+
 #sidebar {
   width: 280px;
   text-align: center;
@@ -439,9 +443,30 @@ button:focus {
   opacity: 0.7;
 }
 
+.skillItem ul li:last-child {
+  padding: none;
+}
+
+.font-size {
+  font-size: 1.5rem;
+}
+
+.resumeSocialLinks a:last-child {
+  margin-right: 0 !important;
+}
+
 @media (max-width: 1140px) {
   .doc_pages {
     padding: 1rem;
+  }
+}
+@media (max-width: 991px) {
+  .resumeAside {
+    border-left: none;
+  }
+
+  .resumeName {
+    font-size: 2.3rem;
   }
 }
 @media (max-width: 800px) {

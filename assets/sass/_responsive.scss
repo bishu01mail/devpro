@@ -3,6 +3,14 @@
 		padding: 1rem;
 	}
 }
+@media (max-width: 991px){
+	.resumeAside{
+		border-left: none;
+	}
+	.resumeName{
+		font-size: 2.3rem;
+	}
+}
 @media (max-width: 800px){
 //======= about me ==========
 	#sidebar{
